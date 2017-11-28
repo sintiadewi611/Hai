@@ -1,13 +1,6 @@
-import java.util.Scanner
-class Main {
-	public static void main (String[] args) {
-		Laporan lap = new Laporan();
-		lap.cetak();
-
-	public static void main (String[] args) {
-	Laporan lap = new Laporan();
-	lap.cetak();
-	Scanner input = new Scanner(System.in)
+class Main{
+	public static void main(String[] args){
+	Stars strs = new Stars();
+	strs.printStars();
 	}
 }
-	
